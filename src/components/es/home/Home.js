@@ -10,6 +10,7 @@ import especialistas from "../../../images/home/especialistas.jpg";
 import cc from "../../../images/home/by-nc-sa.png";
 import "./home.css";
 import { Footer } from "../footer/Footer.js";
+import { Navbar } from "../navbar/Navbar.js";
 
 export const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +19,14 @@ export const Home = () => {
     setShowModal((prev) => !prev);
   };
   return (
-    <Fragment>
+    
+    <div className="divHome">
+      
+  
+      <Navbar/>
+      
+      
+      
       <Parallax bgImage={venus} strength={200}>
         <div className="parallax-container">
           <div className="text-parallax">
@@ -115,6 +123,6 @@ export const Home = () => {
         </div>
       </section>
       <Footer/>
-    </Fragment>
+    </div>
   );
 };
