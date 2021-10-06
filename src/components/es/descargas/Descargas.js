@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import { Menu } from "../menu/Menu";
-import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
 import { Footer } from "../footer/Footer";
 
@@ -51,14 +50,13 @@ export const Descargas = () => {
             <p>10.15.8.0.4 1 KAN 7 CAMKU, 8/11 DE OCTUBRE DE 1133 </p>
           </div>
 
-          <Link
-            to={codice01}
-            target="_blank"
+          <a
+            href={codice01}
             download="codice-maya-folio1.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -73,14 +71,13 @@ export const Descargas = () => {
             <p>10.15.8.4.14 13 HIX 12 ZODZ, 6/9 DE ENERO DE 1134</p>
           </div>
 
-          <Link
-            to={codice02}
-            target="_blank"
+          <a
+            href={codice02}
             download="codice-maya-folio2.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -95,14 +92,13 @@ export const Descargas = () => {
             <p>10.15.8.17.4  3 KAN 2 KAYAB. 13/16 DE SEPTIEMBRE DE 1134 </p>
           </div>
 
-          <Link
-            to={codice03}
-            target="_blank"
+          <a
+            href={codice03}
             download="codice-maya-folio3.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -117,14 +113,13 @@ export const Descargas = () => {
             <p>10.15.8.17.12 11 EB 10 KAYAB, 21/24 DE SEPTIEMBRE DE 1134  </p>
           </div>
 
-          <Link
-            to={codice04}
-            target="_blank"
+          <a
+            href={codice04}
             download="codice-maya-folio4.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -139,14 +134,13 @@ export const Descargas = () => {
             <p>10.15.9.11.18 13 LAMAT 1 ZAC, 15/18 DE MAYO DE 1135  </p>
           </div>
 
-          <Link
-            to={codice05}
-            target="_blank"
+          <a
+            href={codice05}
             download="codice-maya-folio5.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -161,14 +155,13 @@ export const Descargas = () => {
             <p>10.15.9.15.18 12 EDZNAB 11 MUAN, 13/16 DE AGOSTO DE 1135 </p>
           </div>
 
-          <Link
-            to={codice06}
-            target="_blank"
+          <a
+            href={codice06}
             download="codice-maya-folio6.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -183,14 +176,13 @@ export const Descargas = () => {
             <p>10.15.10.10.8 2 LAMAT 16 CHEEN, 19/22 DE ABRIL DE 1136 </p>
           </div>
 
-          <Link
-            to={codice07}
-            target="_blank"
+          <a
+            href={codice07}
             download="codice-maya-folio7.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -205,14 +197,13 @@ export const Descargas = () => {
             <p>10.15.10.10.16 10 CIB 4 YAAX, 27/30 DE ABRIL DE 1136 </p>
           </div>
 
-          <Link
-            to={codice08}
-            target="_blank"
+          <a
+            href={codice08}
             download="codice-maya-folio8.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -227,14 +218,13 @@ export const Descargas = () => {
             <p>10.15.11.4.12  12 EB ZIP, 19/22 DE DICIEMBRE DE 1136 </p>
           </div>
 
-          <Link
-            to={codice09}
-            target="_blank"
+          <a
+            href={codice09}
             download="codice-maya-folio9.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
 
         <div className="folio-card">
@@ -249,14 +239,13 @@ export const Descargas = () => {
             <p>10.15.11.9.2  11 IK 5 MOL, 19/22 DE MARZO DE 1137 </p>
           </div>
 
-          <Link
-            to={codice10}
-            target="_blank"
+          <a
+            href={codice10}
             download="codice-maya-folio9.png"
             className="download-button"
           >
             <FiDownload />
-          </Link>
+          </a>
         </div>
       </div>
 

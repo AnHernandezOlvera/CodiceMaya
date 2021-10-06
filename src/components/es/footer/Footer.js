@@ -14,11 +14,11 @@ export const Footer = () => {
           <div className="site-map">
               <nav id="nav-footer">
               <p className="footer-p" >Secciones</p>    
-              <NavLink to="/presentacion" className="footer-a">Presentación</NavLink>
-              <NavLink to="/codice" className="footer-a">Códice Maya de México</NavLink>
-              <NavLink to="/estudios" className="footer-a">Estudios</NavLink>
-              <NavLink to="/descargas" className="footer-a">Descargas</NavLink>
-              <NavLink to="/creditos" className="footer-a">Créditos</NavLink>
+              <NavLink to="/es/presentacion" className="footer-a">Presentación</NavLink>
+              <NavLink to="/es/codice" className="footer-a">Códice Maya de México</NavLink>
+              <NavLink to="/es/estudios" className="footer-a">Estudios</NavLink>
+              <NavLink to="/es/descargas" className="footer-a">Descargas</NavLink>
+              <NavLink to="/es/creditos" className="footer-a">Créditos</NavLink>
               </nav>
               
           </div>
