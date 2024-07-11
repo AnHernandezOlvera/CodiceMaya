@@ -1,8 +1,8 @@
 {
   "name": "web-codice-maya",
-  "homepage": "https://anahir21.github.io/webCodiceMaya/",
+  "homepage": "https://anhernandezolvera.github.io/CodiceMaya",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-spring/parallax": "^9.2.4",
     "@react-spring/web": "*",
