@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webCodiceMaya/static/css/main.06e65506.chunk.css",
-    "main.js": "/webCodiceMaya/static/js/main.2fc5607d.chunk.js",
-    "main.js.map": "/webCodiceMaya/static/js/main.2fc5607d.chunk.js.map",
+    "main.js": "/webCodiceMaya/static/js/main.93aea4f7.chunk.js",
+    "main.js.map": "/webCodiceMaya/static/js/main.93aea4f7.chunk.js.map",
     "runtime-main.js": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js",
     "runtime-main.js.map": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js.map",
     "static/js/2.469ef6e4.chunk.js": "/webCodiceMaya/static/js/2.469ef6e4.chunk.js",
@@ -87,6 +87,6 @@
     "static/js/runtime-main.96cefa5d.js",
     "static/js/2.469ef6e4.chunk.js",
     "static/css/main.06e65506.chunk.css",
-    "static/js/main.2fc5607d.chunk.js"
+    "static/js/main.93aea4f7.chunk.js"
   ]
 }
